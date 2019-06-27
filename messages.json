@@ -1,0 +1,293 @@
+{
+  "setup": {
+    "DCTAP_SETUP": {
+     "pre_setup":{
+        "steps":{
+           "description": "Dependent Software Installation Steps",
+           "subtitle": "1) Request CRM to get account in github3 \n 2) Get access to adam 'spvss-appserver-developers' group \n 3) Generate SSH key \n 4) Add key to github3 ",
+           "imageUrl": "",
+           "title": "DCTAP Setup Software Installation",
+           "buttons":[]
+        },
+        "validation":{
+           "description": "Installed Software Validation",
+           "title": "DCTAP Setup Software Validation",
+           "imageUrl": "",
+           "subtitle": "1. Check SSH key update mail \n 2. SSH Key starts with ssh-rsa",
+           "buttons":[{
+                        "text":"More Info",
+                        "postback":"https://wiki.cisco.com/display/SPVSSPE/First+steps+in+CTAP+Development"
+                    },
+                    {
+                        "text":"DCTAP Source Setup",
+                        "postback":"dctap_setup"
+                    }
+                    ]
+        }
+     },
+     "setup":{
+       "steps":{
+           "description": "DCTAP Source Code Setup And Local Changes",
+           "title": "Description of the image to display",
+           "imageUrl": "",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        },
+        "validation":{
+           "description": "Validation Of Local Changes",
+           "title": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        }
+     },
+     "post_setup":{
+       "steps":{
+           "description": "Starting Of Software ",
+           "title": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        },
+        "validation":{
+           "description": "validation Of Overall Setup",
+           "title": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        }
+     }
+    },
+    "CTAP_SETUP": {
+      "pre_setup":{
+       "steps":{
+           "title": "Client access token for Api.ai",
+           "description": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        },
+        "validation":{
+           "title": "Client access token for Api.ai",
+           "description": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        }
+     },
+     "setup":{
+       "steps":{
+           "title": "Client access token for Api.ai",
+           "description": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        },
+        "validation":{
+           "title": "Client access token for Api.ai",
+           "description": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        }
+     },
+     "post_setup":{
+       "steps":{
+           "title": "Client access token for Api.ai",
+           "description": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        },
+        "validation":{
+           "title": "Client access token for Api.ai",
+           "description": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        }
+     }
+    },
+    "PY_TEST_SETUP": {
+      "pre_setup":{
+      "steps":{
+           "title": "Client access token for Api.ai",
+           "description": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        },
+        "validation":{
+           "title": "Client access token for Api.ai",
+           "description": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        }
+     },
+     "setup":{
+       "steps":{
+           "title": "Client access token for Api.ai",
+           "description": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        },
+        "validation":{
+           "title": "Client access token for Api.ai",
+           "description": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        }
+     },
+     "post_setup":{
+       "steps":{
+           "title": "Client access token for Api.ai",
+           "description": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        },
+        "validation":{
+           "title": "Client access token for Api.ai",
+           "description": "Description of the image to display",
+           "imageUrl": "https://i.ytimg.com/vi/L0AV9KjfHds/maxresdefault.jpg",
+           "subtitle": "sub title",
+           "buttons":[{
+                        "text":"Click Here",
+                        "postback":"clicked button"
+                    },
+                    {
+                        "text":"Click Here1",
+                        "postback":"clicked button1"
+                    }
+                    ]
+        }
+     }
+    }
+  },
+  "engines": {
+    "node": "5.10.1"
+  }
+}

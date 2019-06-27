@@ -1,0 +1,31 @@
+{
+    "contentType": "application/vnd.microsoft.card.adaptive",
+    "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "body": [
+        {
+            "type": "TextBlock",
+            "text": "Request is raised.",
+            "weight": "bolder",
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Request id is 14944",
+            "separator": true,
+            "wrap": true,
+            "size": "medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Our team will process further",
+            "separator": true,
+            "wrap": true,
+            "size": "medium"
+        }
+        ],
+        "actions": []
+  }
+}

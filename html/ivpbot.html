@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IVP Chatbot</title>
+    <!-- <link href="https://cdn.botframework.com/botframework-webchat/latest/botchat.css" rel="stylesheet" /> -->
+	<link href="https://cdn.botframework.com/botframework-webchat/latest/botchat.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <div id="bot" />
+    </div>
+    <!-- <script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script> -->
+	<script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
+    <script>
+        var user = {
+            id: 'gpujar',
+            name: 'Giriyappa'
+        };
+        var botConnection = new BotChat.DirectLine({
+            token: 'leXBW9efnaA.Y5bYKWWt6Bm7TO1GOm4at5rfWXZc3uM5hy7UFFX0EfY',
+            user: user
+        });
+        BotChat.App({
+            user: user,
+            botConnection: botConnection,
+            bot: { id: '8caae466-e3f1-453d-a882-e773976d7917', name: 'CTAP Guru' },
+            resize: 'detect'
+        }, document.getElementById("bot"));
+        botConnection
+            .postActivity({
+                from: user,
+                name: 'ConversationUpdate',
+                type: 'event',
+                value: 'Hi'
+            })
+            .subscribe(function (id) {
+                console.log('"trigger requestWelcomeDialog" sent');
+            });
+    </script>
+</body>
+</html>

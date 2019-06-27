@@ -1,0 +1,855 @@
+{
+  "setup": {
+    "WELCOME": {
+      "steps": {
+        "title": "Welcome To IVP Help Desk",
+        "description": "welcome message",
+        "imageUrl": "https://i.postimg.cc/Y9Kpxzhy/synamedia-logo-black-cmyk.jpg",
+        "subtitle": "This bot assist you about IVP solutions. \n\n Select below option for assistance.",
+        "size": "medium",
+        "buttons": [
+          {
+            "text": "Packs",
+            "postback": "packages"
+          },
+          {
+            "text": "Raise Ticket",
+            "postback": "complaint"
+          },
+          {
+            "text": "Manual",
+            "postback": "manual"
+          },
+          {
+            "text": "FAQ",
+            "postback": "questions"
+          }
+        ]
+      }
+    },
+    "SETUP": {
+        "title": "Source Code Setup.",
+        "description": "welcome message",
+        "imageUrl": "https://i.postimg.cc/5Nq5PNpd/ctap-guru-final.png",
+        "subtitle": "Local PC source code setup. \n\n Select below appropriate option.",
+        "size": "medium",
+        "buttons": [
+          {
+            "text": "DCTAP Setup",
+            "postback": "dctap_pre_setup"
+          },
+          {
+            "text": "CTAP Setup",
+            "postback": "ctap_pre_setup"
+          },
+          {
+            "text": "PyTest Setup",
+            "postback": "pytest_pre_setup"
+          },
+          {
+            "text": "Close",
+            "postback": "close"
+          }
+        ]
+    },
+    "DEVELOPMENT": {
+        "title": "Development.",
+        "description": "development of dctap/ctap",
+        "imageUrl": "https://i.postimg.cc/5Nq5PNpd/ctap-guru-final.png",
+        "subtitle": "Source code modification and testing steps. \n\n Select below appropriate option.",
+        "size": "medium",
+        "buttons": [
+          {
+            "text": "Code Setup",
+            "postback": "code_setup"
+          },
+          {
+            "text": "Code Submit",
+            "postback": "code_checkin"
+          },
+          {
+            "text": "CTAP Dev Test",
+            "postback": "ctap_deploy"
+          },
+          {
+            "text": "DCTAP Dev Test",
+            "postback": "dctap_build"
+          },
+          {
+            "text": "Close",
+            "postback": "close"
+          }
+        ]
+    },
+    "PACKAGES": {
+        "title": "Packages",
+        "description": "welcome message",
+        "imageUrl": "https://i.postimg.cc/VLv54J28/packages.png",
+        "subtitle": "Select below appropriate packs.",
+        "size": "medium",
+        "buttons": [
+          {
+            "text": "Hindi Packs",
+            "postback": "package_hindi"
+          },
+          {
+            "text": "English Packs",
+            "postback": "package_english"
+          },
+          {
+            "text": "Tamil Packs",
+            "postback": "package_tamil"
+          },
+          {
+            "text": "Telugu Packs",
+            "postback": "package_telugu"
+          }
+        ],
+        "package_hindi": {
+          "description": "Package Hindi",
+          "subtitle": "",
+          "imageUrl": "https://i.postimg.cc/t4yW7y2f/hindi-package.jpg",
+          "title": "Select Hindi Packs",
+          "buttons": [
+            {
+              "text": "Basic",
+              "postback": "hindi_basic"
+            },
+            {
+              "text": "Smart",
+              "postback": "hindi_smart"
+            },
+            {
+              "text": "Family And Kids",
+              "postback": "hindi_family_kids"
+            },
+            {
+              "text": "Family And Sports",
+              "postback": "hindi_family_sports"
+            },
+              {
+                "text": "Previous",
+                "postback": "welcome"
+              }
+          ],
+          "hindi_basic": {
+            "description": "Hindi Basic Pack",
+            "subtitle": "",
+            "imageUrl": "https://i.postimg.cc/3JBd2Mw6/hindi-basic.jpg",
+            "title": "Hindi Basic Pack 200 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe 200 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_hindi"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          },
+          "hindi_smart": {
+            "description": "Package Hindi Smart",
+            "subtitle": "",
+            "imageUrl": "https://i.postimg.cc/3JBd2Mw6/hindi-basic.jpg",
+            "title": "Hindi Smart Pack 250 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe 250 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_hindi"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          },
+          "hindi_family_kids": {
+            "description": "Package Hindi Kids",
+            "subtitle": "",
+            "imageUrl": "https://i.postimg.cc/3JBd2Mw6/hindi-basic.jpg",
+            "title": "Hindi Family Kids Pack 300 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe 300 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_hindi"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          },
+          "hindi_family_sports": {
+            "description": "Package Hindi Sports",
+            "subtitle": "",
+            "imageUrl": "https://i.postimg.cc/3JBd2Mw6/hindi-basic.jpg",
+            "title": "Hindi Family Sports 350 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe 350 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_hindi"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          }
+        },
+        "package_english": {
+          "description": "English",
+          "subtitle": "",
+          "imageUrl": "https://i.postimg.cc/5ydjGqrG/english.png",
+          "title": "Select English Pack",
+          "buttons": [
+            {
+              "text": "Basic",
+              "postback": "english_basic"
+            },
+            {
+              "text": "Smart",
+              "postback": "english_smart"
+            },
+            {
+              "text": "Family And Kids",
+              "postback": "english_family_kids"
+            },
+            {
+              "text": "Family And Sports",
+              "postback": "english_family_sports"
+            },
+              {
+                "text": "Previous",
+                "postback": "welcome"
+              }
+          ],
+          "english_basic": {
+            "description": "Package English Basic",
+            "subtitle": "",
+            "imageUrl": "https://i.postimg.cc/8zm91HtL/english-package.jpg",
+            "title": "English Basic Pack 200 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe 200 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_english"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          },
+          "english_smart": {
+            "description": "Package English Smart",
+            "subtitle": "",
+            "imageUrl": "https://i.postimg.cc/8zm91HtL/english-package.jpg",
+            "title": "English Smart Pack 250 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe 250 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_english"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          },
+          "english_family_kids": {
+            "description": "Package English Kids",
+            "subtitle": "",
+            "imageUrl": "https://i.postimg.cc/8zm91HtL/english-package.jpg",
+            "title": "English Family Kids Pack 300 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe 300 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_english"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          },
+          "english_family_sports": {
+            "description": "Package English Sports",
+            "subtitle": "",
+            "imageUrl": "https://i.postimg.cc/8zm91HtL/english-package.jpg",
+            "title": "English Family Sports 350 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe 350 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_english"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          }
+        },
+        "package_tamil": {
+          "description": "Package Tamil",
+          "subtitle": "",
+          "imageUrl": "https://i.postimg.cc/wTR0D65j/tamil.png",
+          "title": "Select Tamil Packs",
+          "buttons": [
+            {
+              "text": "Basic",
+              "postback": "tamil_basic"
+            },
+            {
+              "text": "Smart",
+              "postback": "tamil_smart"
+            },
+            {
+              "text": "Family And Kids",
+              "postback": "tamil_family_kids"
+            },
+            {
+              "text": "Family And Sports",
+              "postback": "tamil_family_sports"
+            },
+              {
+                "text": "Previous",
+                "postback": "welcome"
+              }
+          ],
+          "tamil_basic": {
+            "description": "Tamil Basic Pack",
+            "subtitle": "",
+            "imageUrl": "",
+            "title": "Tamil Basic Pack 200 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe 200 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_tamil"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          },
+          "tamil_smart": {
+            "description": "Package Tamil Smart",
+            "subtitle": "",
+            "imageUrl": "",
+            "title": "Tamil Smart Package 250 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe 250 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_tamil"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          },
+          "tamil_family_kids": {
+            "description": "Tamil Family Kids",
+            "subtitle": "",
+            "imageUrl": "",
+            "title": "Tamil Family Kids 300 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe 300 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_tamil"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          },
+          "tamil_family_sports": {
+            "description": "Package Tamil Sports",
+            "subtitle": "",
+            "imageUrl": "",
+            "title": "Package Tamil Sports 350 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_tamil"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          }
+        },
+        "package_telugu": {
+          "description": "Package Telugu",
+          "subtitle": "",
+          "imageUrl": "https://i.postimg.cc/Ssjt5c9W/tata-telugu.jpg",
+          "title": "Select Telagu Pack",
+          "buttons": [
+            {
+              "text": "Basic",
+              "postback": "telugu_basic"
+            },
+            {
+              "text": "Smart",
+              "postback": "telugu_smart"
+            },
+            {
+              "text": "Family And Kids",
+              "postback": "telugu_family_kids"
+            },
+            {
+              "text": "Family And Sports",
+              "postback": "telugu_family_sports"
+            },
+              {
+                "text": "Previous",
+                "postback": "welcome"
+              }
+          ],
+          "telugu_basic": {
+            "description": "Package Telugu Basic",
+            "subtitle": "",
+            "imageUrl": "",
+            "title": "Select Telugu Package 200 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe 200 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_telugu"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          },
+          "telugu_smart": {
+            "description": "Package Telugu Smart",
+            "subtitle": "",
+            "imageUrl": "",
+            "title": "Telugu Smart Pack 250 rs",
+            "buttons": [
+              {
+                "text": "Subscribe 250 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_telugu"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          },
+          "telugu_family_kids": {
+            "description": "Package Telugu Kids",
+            "subtitle": "",
+            "imageUrl": "",
+            "title": "Telugu Family Kids 300 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe 300 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_telugu"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          },
+          "telugu_family_sports": {
+            "description": "Package Telugu Sports",
+            "subtitle": "",
+            "imageUrl": "",
+            "title": "Telugu Family Sports 350 Rs",
+            "buttons": [
+              {
+                "text": "Subscribe 350 Rs",
+                "postback": "subscribe"
+              },
+              {
+                "text": "Previous",
+                "postback": "package_telugu"
+              },
+              {
+                "text": "Home",
+                "postback": "welcome"
+              }
+            ]
+          }
+        },
+        "ctap_debug": {
+          "description": "CTAP Debug",
+          "title": "Select To Continue",
+          "imageUrl": "",
+          "subtitle": "",
+          "buttons": [
+            {
+              "text": "Button 1",
+              "postback": "debug"
+            },
+            {
+              "text": "Close",
+              "postback": "close"
+            }
+            ]
+        }
+     },
+    "REQUEST": {
+        "title": "Raise Ticket.",
+        "description": "welcome message",
+        "imageUrl": "https://i.postimg.cc/bNG31Qcn/request-box.jpg",
+        "subtitle": "Please select option.",
+        "size": "medium",
+        "buttons": [
+          {
+            "text": "Signal Issue",
+            "postback": "signal_issue"
+          },
+          {
+            "text": "STB Relocation",
+            "postback": "relocation"
+          },
+          {
+            "text": "Home",
+            "postback": "welcome"
+          }
+        ]
+    },
+    "SUBSCRIBE": {
+        "title": "Select Option",
+        "description": "welcome message",
+        "imageUrl": "",
+        "subtitle": "",
+        "size": "medium",
+        "buttons": [
+          {
+            "text": "Home",
+            "postback": "welcome"
+          }
+        ]
+    },
+    "DCTAP_SETUP": {
+      "pre_setup": {
+        "steps": {
+          "description": "",
+          "subtitle": "",
+          "imageUrl": "",
+          "title": "Select To Continue",
+          "buttons": [
+            {
+              "text": "DCTAP Source Code Setup",
+              "postback": "dctap_setup"
+            },
+            {
+              "text": "Close",
+              "postback": "close"
+            }
+          ]
+        },
+        "ctap_link": {
+          "description": "",
+          "subtitle": "",
+          "imageUrl": "",
+          "title": "DCTAP Source Code Repository",
+          "buttons": [
+            {
+              "text": "Github Repo",
+              "postback": "https://github3.cisco.com/IH/ctap"
+            }
+          ]
+        },
+        "adam_link": {
+          "description": "",
+          "subtitle": "",
+          "imageUrl": "",
+          "title": "Subscribe to ADAM group from link",
+          "buttons": [
+            {
+              "text": "ADAM Subscription Link",
+              "postback": "https://mailer.cloudapps.cisco.com/itsm/mailer/listDetails.do?list=application_server_users"
+            }
+          ]
+        },
+        "nodejs_link": {
+          "description": "",
+          "subtitle": "",
+          "imageUrl": "",
+          "title": "Install NodeJS from link",
+          "buttons": [
+            {
+              "text": "NodeJS Installer.",
+              "postback": "https://nodejs.org/download/release/"
+            }
+          ]
+        }
+      },
+      "setup": {
+        "steps": {
+          "description": "DCTAP Source Code Setup And Local Changes",
+          "title": "Select To Continue",
+          "imageUrl": "",
+          "subtitle": "",
+          "buttons": [
+            {
+              "text": "DCTAP Setup Validation",
+              "postback": "dctap_post_setup"
+            },
+            {
+              "text": "Close",
+              "postback": "close"
+            }
+          ]
+        }
+      },
+      "post_setup": {
+        "steps": {
+          "description": "Starting Of Software ",
+          "title": "Select To Continue",
+          "imageUrl": "",
+          "subtitle": "",
+          "buttons": [
+            {
+              "text": "DCTAP Pre Setup",
+              "postback": "dctap_pre_setup"
+            },
+            {
+              "text": "PyTest Setup",
+              "postback": "pytest_pre_setup"
+            },
+            {
+              "text": "CTAP Setup",
+              "postback": "ctap_pre_setup"
+            },
+            {
+              "text": "Code Submit",
+              "postback": "code_checkin"
+            },
+            {
+              "text": "Close",
+              "postback": "close"
+            }
+          ]
+        }
+      }
+    },
+    "CTAP_SETUP": {
+      "pre_setup": {
+        "steps": {
+          "description": "",
+          "subtitle": "",
+          "imageUrl": "",
+          "title": "Select To Continue",
+          "buttons": [
+            {
+              "text": "CTAP Source Setup",
+              "postback": "ctap_setup"
+            },
+            {
+              "text": "Close",
+              "postback": "close"
+            }
+          ]
+        }
+      },
+      "setup": {
+        "steps": {
+          "description": "CTAP Source Code Setup",
+          "title": "Select To Continue",
+          "imageUrl": "",
+          "subtitle": "",
+          "buttons": [
+            {
+              "text": "CTAP Setup Validation",
+              "postback": "ctap_post_setup"
+            },
+            {
+            "text": "Close",
+            "postback": "close"
+            }
+          ]
+        }
+      },
+      "post_setup": {
+        "steps": {
+          "description": "Starting CTAP Server ",
+          "title": "Select To Continue",
+          "imageUrl": "",
+          "subtitle": "",
+          "buttons": [
+            {
+              "text": "CTAP Pre Setup",
+              "postback": "ctap_pre_setup"
+            },
+            {
+              "text": "DCTAP Setup",
+              "postback": "dctap_pre_setup"
+            },
+            {
+              "text": "PyTest Setup",
+              "postback": "pytest_pre_setup"
+            },
+            {
+              "text": "Code Submit",
+              "postback": "code_checkin"
+            },
+            {
+              "text": "Close",
+              "postback": "close"
+            }
+          ]
+        }
+      }
+    },
+    "PY_TEST_SETUP": {
+      "pre_setup": {
+        "steps": {
+          "description": "",
+          "subtitle": "",
+          "imageUrl": "",
+          "title": "Select To Continue",
+          "buttons": [
+            {
+              "text": "PYTEST Code Setup",
+              "postback": "pytest_setup"
+            },
+            {
+              "text": "Close",
+              "postback": "close"
+            }
+          ]
+        }
+      },
+      "setup": {
+        "steps": {
+          "description": "CTAP Source Code Setup",
+          "title": "Select To Continue",
+          "imageUrl": "",
+          "subtitle": "",
+          "buttons": [
+            {
+              "text": "PYTEST Validation",
+              "postback": "pytest_post_setup"
+            },
+            {
+              "text": "Close",
+              "postback": "close"
+            }
+          ]
+        }
+      },
+      "post_setup": {
+        "steps": {
+          "description": "Starting CTAP Server ",
+          "title": "Select To Continue",
+          "imageUrl": "",
+          "subtitle": "",
+          "buttons": [
+            {
+              "text": "DCTAP Setup",
+              "postback": "dctap_pre_setup"
+            },
+            {
+              "text": "CTAP Setup",
+              "postback": "ctap_pre_setup"
+            },
+            {
+              "text": "Code Submit",
+              "postback": "code_checkin"
+            },
+            {
+              "text": "Close",
+              "postback": "close"
+            }
+          ]
+        }
+      }
+    },
+    "CLOSE": {
+        "steps": {
+          "title": "Thank you.",
+          "description": "close message",
+          "imageUrl": "https://i.postimg.cc/5Nq5PNpd/ctap-guru-final.png",
+          "subtitle": "Always happy to serve you.",
+          "buttons": [
+            ]
+        }
+    },
+    "CODE_CHECKIN": {
+        "steps": {
+          "title": "Select Option",
+          "description": "code submit message",
+          "imageUrl": "",
+          "subtitle": "",
+          "buttons": [
+            {
+              "text": "Close",
+              "postback": "close"
+            }
+          ]
+        }
+    },
+    "engines": {
+      "node": "5.10.1"
+    }
+  }
+}
